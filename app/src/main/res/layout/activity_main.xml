@@ -1,0 +1,67 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transporte Público Eficiente"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="100dp"
+        />
+
+    <Button
+        android:id="@+id/btnSchedules"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Horarios"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_schedule"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/btnRoutes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Rutas"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_route"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/btnSchedules"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/btnAlerts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Alertas"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_alert"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/btnRoutes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
