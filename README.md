@@ -1,5 +1,5 @@
 # Transporte Público Eficiente
-
+## Hecho por: Alberto Valera
 Este proyecto es una aplicación Android diseñada para proporcionar información eficiente sobre el transporte público, incluyendo horarios, rutas y alertas.
 
 ## Características
